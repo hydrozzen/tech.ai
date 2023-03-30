@@ -1,0 +1,53 @@
+:root { --text-font: "Poppins", system-ui, 
+    --body-font: "Poppins", system-ui, 
+    --ui-font: "Poppins", system-ui, 
+    --title-font: "Poppins", system-ui, 
+    --h-font: "Poppins", system-ui, 
+    --alt-font: "Poppins", system-ui, 
+    --alt-font2: "Poppins", system-ui, 
+    --title-font: "Poppins", system-ui, 
+    --h-font: "Poppins", system-ui, 
+    --title-font: "Poppins", system-ui, 
+    --text-color: #1d262e;
+    --h-color: #1d262e;
+    --main-color: #1d262e;
+    --main-color-rgb: 29,38,46;
+    --text-font: "Poppins", system-ui, 
+    --body-font: "Poppins", system-ui, 
+    --ui-font: "Poppins", system-ui, 
+    --title-font: "Poppins", system-ui, 
+    --h-font: "Poppins", system-ui, 
+    --alt-font: "Poppins", system-ui, 
+    --alt-font2: "Poppins", system-ui, 
+    --title-font: "Poppins", system-ui, 
+    --h-font: "Poppins", system-ui, 
+    --title-font: "Poppins", system-ui, 
+    --text-color: #1d262e;
+    --h-color: #1d262e;
+    --main-color: #1d262e;
+    --main-color-rgb: 29,38,46; }
+    .main-head, .main-head.dark { border-bottom-color: #ffffff; }
+    .top-bar.dark { --topbar-dark-bg: #02ce9d; --topbar-bc: #02ce9d; }
+    .navigation { font-family: "Poppins", system-ui,  }
+    
+    .post-title, 
+    .post-title-alt, 
+    .post-title a, 
+    .post-title-alt a { color: #1d262e; }
+    .mid-footer a.overlay { display: none; }
+    .main-footer .upper-footer { background-color: #ffffff; border-top: none; }
+    .main-footer .lower-footer { background-color: #ffffff; border-top: none; }
+    .list-post .ratio-is-custom { padding-bottom: calc(100% / 1.99); }
+    .main-head, .main-head.dark { border-bottom-color: #ffffff; }
+    .top-bar.dark { --topbar-dark-bg: #02ce9d; --topbar-bc: #02ce9d; }
+    .navigation { font-family: "Poppins", system-ui,  }
+    .navigation.inline .menu > li > a { font-family: "Poppins", system-ui,  font-weight: 500; font-style: normal; text-transform: capitalize; }
+    .post-title, 
+    .post-title-alt, 
+    .post-title a, 
+    .post-title-alt a { color: #1d262e; }
+    .mid-footer a.overlay { display: none; }
+    .main-footer .upper-footer { background-color: #ffffff; border-top: none; }
+    .main-footer .lower-footer { background-color: #ffffff; border-top: none; }
+    .list-post .ratio-is-custom { padding-bottom: calc(100% / 1.99); }
+    
