@@ -9,8 +9,7 @@ nav{
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: #000000;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
   background: #ffffff;
 }
 nav .wrapper{
@@ -24,9 +23,17 @@ nav .wrapper{
   align-items: center;
   justify-content: space-between;
 }
-
+.wrapper .logo a{
+  color: limegreen;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
 .wrapper .nav-links{
   display: inline-flex;
+}
+.colourbutton{
+  margin-left: 91px;
 }
 .nav-links li{
   list-style: none;
@@ -41,13 +48,8 @@ nav .wrapper{
   transition: all 0.3s ease;
 }
 .nav-links li a:hover{
-  background: #44b754;
-  
-  
-  
+  background: limegreen;
 }
-
-
 .nav-links .mobile-item{
   display: none;
 }
@@ -61,8 +63,7 @@ nav .wrapper{
   visibility: hidden;
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
 }
-.nav-links li:hover .drop-menu
-{
+.nav-links li:hover .drop-menu{
   transition: all 0.3s ease;
   top: 70px;
   opacity: 1;
@@ -75,25 +76,8 @@ nav .wrapper{
   font-weight: 400;
   border-radius: 0px;
 }
-
-
-.content .row img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.content .row header{
-  color: #f2f2f2;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.row .mega-links li{
-  padding: 0 20px;
-}
-
 .wrapper .btn{
-  color: #00950c;
+    color: limegreen;
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -128,10 +112,10 @@ nav .wrapper{
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #7e7e7e;
+    background: #5f87ae;
   }
   ::-webkit-scrollbar-thumb {
-    background: #777778;
+    background: #3A3B3C;
   }
   #menu-btn:checked ~ .nav-links{
     left: 0%;
@@ -163,13 +147,15 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   #showDrop:checked ~ .drop-menu,
-
+  #showMega:checked ~ .mega-box{
+    max-height: 100%;
+  }
   .nav-links .desktop-item{
     display: none;
   }
   .nav-links .mobile-item{
     display: block;
-    color: #000000;
+    color: #0e0d0d;
     font-size: 20px;
     font-weight: 500;
     padding-left: 20px;
@@ -178,7 +164,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background: #3dab53;
+    background: #09a131;
   }
   .drop-menu li{
     margin: 0;
@@ -187,33 +173,9 @@ nav .wrapper{
     border-radius: 5px;
     font-size: 18px;
   }
-
-
-  .content .row .mega-links{
-    border-left: 0px;
-    padding-left: 15px;
-  }
-  .row .mega-links li{
-    margin: 0;
-  }
-  .content .row header{
-    font-size: 19px;
-  }
+  
 }
 nav input{
   display: none;
 }
 
-.body-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  padding: 0 30px;
-}
-.body-text div{
-  font-size: 45px;
-  font-weight: 600;
-}

@@ -24,7 +24,7 @@
 .fakeimg {
   background-color: #aaa;
   width: 20%;
-  margin-top: 1%;
+  margin-top: -7%;
   padding: 20px;
 
 }
@@ -32,12 +32,8 @@
 /* Add a cardisthis effect for articles */
 .cardisthis {
    background-color: white;
-   padding: 20px;
-   margin-top: 20px;
-}
-.cardisthisskills{
-
-  margin-top: 20px;
+  
+   
 }
 
 /* Clear floats after the columns */
@@ -64,7 +60,7 @@
 }
 .quick{
   
-  margin-top: -10%;
+  margin-top: -15%;
   margin-left: 22%;
 }
 .skillpara{

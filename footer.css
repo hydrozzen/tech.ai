@@ -51,3 +51,11 @@
     .main-footer .lower-footer { background-color: #ffffff; border-top: none; }
     .list-post .ratio-is-custom { padding-bottom: calc(100% / 1.99); }
     
+
+
+    .fb{
+        height: auto;
+        width: 10%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
