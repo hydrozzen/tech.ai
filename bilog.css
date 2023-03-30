@@ -1,0 +1,86 @@
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.bilogleftcol {   
+  float: left;
+  width: 55%;
+  padding: 5%;
+  margin-left: 5%;
+  margin-top: -3%;
+
+}
+
+/* Right column */
+.bilogrightcol {
+  float: left;
+  width: 35%;
+  padding-left: 20px;
+  margin-right: 5%;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 20%;
+  margin-top: 1%;
+  padding: 20px;
+
+}
+
+/* Add a cardisthis effect for articles */
+.cardisthis {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+.cardisthisskills{
+
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.bilogrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .bilogleftcol, .bilogrightcol {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.quick{
+  
+  margin-top: -10%;
+  margin-left: 22%;
+}
+.skillpara{
+  margin-left: 22%;
+  margin-top: -1%;
+}
+.fin{
+  color: limegreen;
+  margin-left: 22%;
+  font-weight: 550;
+  margin-top: -1111%;
+  font-size: small;
+}
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+

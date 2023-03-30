@@ -1,0 +1,96 @@
+
+.skills{
+  margin-left: 16.5%;
+}
+.faq{
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+
+
+}
+
+.FAQ__accordian {
+  width: 100%;
+}
+.FAQ__title {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: #c7f4fd;
+  border: 1px solid #f9feff;
+  color: rgb(0, 0, 0);
+}
+
+.FAQ__visible {
+  background-color: #f9feff;
+  border-top: 1px solid #f9feff;
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+ 
+  transition: max-height 0.5s ease-in-out;
+}
+
+
+.FAQ__visible > p {
+  margin: 1rem;
+}
+.FAQ__list__container {
+  border-top: 8px solid #222;
+  padding: 2rem 0;
+}
+.FAQ__heading {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  margin: 1rem 3rem;
+}
+
+.FAQ__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+
+   .FAQ__title {
+    font-size: 20px;
+  }
+  .FAQ__heading {
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .FAQ__list {
+    padding: 0.1rem 5rem;
+  }
+
+}
+
+@media (min-width: 1024px) {
+ 
+  .FAQ__list {
+    padding: 1rem 25rem;
+  }
+  .FAQ__get__started__email {
+    transform: translateX(16%);
+  }
+}
+
+
+.skbutton{
+  background-color: rgb(23, 202, 7);
+  color: black;
+  font-weight: 727;
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+  float: right;
+}

@@ -10,7 +10,7 @@ nav{
   z-index: 99;
   width: 100%;
   box-shadow: #000000;
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #ffffff;
 }
 nav .wrapper{
@@ -47,11 +47,7 @@ nav .wrapper{
   
 }
 
-.colourbutton{
-    background: #be2490;
-    color: red;
-    
-}
+
 .nav-links .mobile-item{
   display: none;
 }
