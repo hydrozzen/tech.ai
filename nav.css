@@ -269,12 +269,13 @@ color: #1D262E;
         }
         .line{
             border-left: 1px solid #ACACAC;
-            height: 90px;
+            height: 50px;
         }
         @media screen and (max-width:600px){
             .kontainer{
-                margin-left: 0%;
-                margin-right: 0%;
+                margin-left: 5%;
+                margin-right: 5%;
+                width: 90%;
             }
             .group2{
                 flex: none;
@@ -310,7 +311,10 @@ color: #1D262E;
               margin-bottom: 81%;
               margin-top: -10%;
             }
+            .bilogleftcol{
+              margin-top: 34%;
+            }
             .bilogrow{
-              margin-top: 24%;
+              margin-top: 34%;
             }
         }
